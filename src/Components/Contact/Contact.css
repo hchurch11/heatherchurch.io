@@ -1,0 +1,14 @@
+.contact-section {
+    background-color: #ff7844;
+    padding: 10px;
+    color: #23425f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-links a {
+    text-decoration: none;
+    color: #23425f;
+}

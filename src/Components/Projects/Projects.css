@@ -1,0 +1,33 @@
+.project-section {
+    background-color: #a64942;
+    color: #ff7844;
+    padding: 50px 20px;
+}
+
+.project-tile {
+    padding: 40px;
+    text-align: center;
+    border: 2px solid #BDBDBD;
+    margin: 50px;
+    border-radius: 10px;
+    background-color: #91403a;
+}
+
+.project-tile a {
+    padding: 20px 0;
+}
+
+.project-image {
+    margin: 40px 0;
+}
+
+a.project-link {
+    background-color: #23425f;
+}
+
+#more-projects-link {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 10px;
+}

@@ -1,0 +1,13 @@
+nav {
+    display: inline;
+    background-color: #23425f;
+}
+
+#navbar a {
+    margin: 0px 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #ffab5e;
+}
