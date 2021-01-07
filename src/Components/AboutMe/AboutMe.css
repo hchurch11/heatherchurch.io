@@ -1,0 +1,29 @@
+.AboutMe {
+    background-color: #ffab5c;
+    color: #a64942;
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    padding: 20px 100px;
+    max-width: 1000px;
+}
+
+.page-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: large;
+}
+
+h1 {
+    font-family: 'Rock Salt', cursive;
+}
+
+h2, h3, p {
+    font-family: 'Lato', sans-serif;
+}

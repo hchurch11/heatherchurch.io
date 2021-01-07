@@ -1,34 +1,35 @@
 import React from "react";
 import "./Navigation.css";
+import { Link } from "react-router-dom";
+import { NavHashLink as NavLink } from "react-router-hash-link";
 
-export class Navigation extends React.Component {
-  render() {
-    return (
-      <>
-        <nav
-          className="d-flex justify-content-center navbar fixed-top"
-          id="navbar"
-        >
-          <a href="#welcome-section" className="nav-link btn btn-outline-light">
-            About Me
-          </a>
-          <a href="#projects" className="nav-link btn btn-outline-light">
-            Projects
-          </a>
-          <a href="#contact" className="nav-link btn btn-outline-light">
-            Contact
-          </a>
-          <a href="#Music" className="nav-link btn btn-outline-light">
-            Music
-          </a>
-          <a href="#Education" className="nav-link btn btn-outline-light">
-            Education
-          </a>
-          <a href="#Blog" className="nav-link btn btn-outline-light">
-            Blog
-          </a>
-        </nav>
-      </>
-    );
-  }
+export default function Navigation() {
+  return (
+    <div className="Navigation">
+      <nav className="fixed-top">
+        <Link to="/" className="nav-link ">
+          Home
+        </Link>
+        <NavLink smooth to="/#Projects" className="nav-link ">
+          Projects
+        </NavLink>
+        <NavLink smooth to="/#Contact" className="nav-link ">
+          Contact
+        </NavLink>
+        <Link to="AboutMe" className="nav-link ">
+          About Me
+        </Link>
+
+        <Link to="Music" className="nav-link ">
+          Music
+        </Link>
+        <Link to="Education" className="nav-link ">
+          Education
+        </Link>
+        <Link to="Blog" className="nav-link ">
+          Blog
+        </Link>
+      </nav>
+    </div>
+  );
 }

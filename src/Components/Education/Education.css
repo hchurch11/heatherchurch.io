@@ -1,0 +1,65 @@
+.Education {
+    background-color: #ff7844;
+    padding: 10px;
+    color: #23425f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-links a {
+    text-decoration: none;
+    color: #23425f;
+}
+
+.Education {
+    text-align: left;
+    list-style-type: disc;
+    background-color: #ff7844;
+}
+
+a.certificateLink {
+    text-decoration: none;
+    color: #23425f;
+}
+
+a.certificateLink:hover {
+    color: #a64942;
+}
+
+/* Technology grid */
+
+#technology {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.center {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+.rotating {
+    animation: rotating 10s linear infinite;
+}
+
+.techIcon {
+    vertical-align: middle;
+    border-style: none;
+    position: relative;
+    width: 100px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@keyframes rotating {
+    to {
+        transform: rotate(0deg);
+    }
+    from {
+        transform: rotate(360deg);
+    }
+}
