@@ -25,6 +25,151 @@ export default function Education() {
           <li>
             <a
               className="certificateLink"
+              href="http://www.linkedin.com/learning/improve-seo-for-your-website?trk=flagship-lil_details_certification"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>Improve SEO for Your Website</strong>
+            </a>
+            <em> - LinkedIn, </em>January, 2021
+          </li>
+          <li>
+            <a
+              className="certificateLink"
+              href="https://www.codecademy.com/profiles/hchurch11/certificates/6c152bd262967f8c941c9707ed636bda"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>Learn Python</strong>
+            </a>
+            <em> - codecademy, </em>January, 2021
+          </li>
+          <li>
+            <a
+              className="certificateLink"
+              href="https://www.lynda.com/home/CertificateOfCompletion/PrintCertificate.aspx?lpk57=771D387A49414D90964251677AB527C1"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>React.js Essential Training</strong>
+            </a>
+            <em> - LinkedIn, </em>January 2021
+          </li>
+          <li>
+            <a
+              className="certificateLink"
+              href="https://www.lynda.com/home/CertificateOfCompletion/PrintCertificate.aspx?lpk57=431537F55B82440FB1630EFD388E250B"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>CSS Essential Training</strong>
+            </a>
+            <em> - LinkedIn, </em>December 2020
+          </li>
+          <li>
+            <a
+              className="certificateLink"
+              href="https://www.codecademy.com/profiles/hchurch11/certificates/6156c9bebf9046929b95afa8fa67ffd5"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>Deploying with Netlify and Heroku</strong>
+            </a>
+            <em> - codecademy, </em>December 2020
+          </li>
+          <li>
+            <a
+              className="certificateLink"
+              href="https://www.lynda.com/home/CertificateOfCompletion/PrintCertificate.aspx?lpk57=25FEC9C2B0C644D0B3A2D013A3BD5871"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>HTML Essential Training </strong>
+            </a>
+            <em> - LinkedIn, </em>December 2020
+          </li>
+          <li>
+            <a
+              className="certificateLink"
+              href="http://www.linkedin.com/learning/paths/prepare-for-the-aws-certified-cloud-practitioner-exam?trk=flagship-lil_details_certification"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>Introduction to AWS for Non-Engineers </strong>
+            </a>
+            <em> - LinkedIn, </em>December 2020
+            <ol>
+              <a
+                className="certificateLink"
+                href="http://www.linkedin.com/learning/introduction-to-aws-for-non-engineers-1-cloud-concepts-2?trk=flagship-lil_details_certification"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <li>Cloud Concepts</li>
+              </a>
+              <a
+                className="certificateLink"
+                href="http://www.linkedin.com/learning/introduction-to-aws-for-non-engineers-2-security-2?trk=flagship-lil_details_certification"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                <li>Security</li>
+              </a>
+              <a
+                className="certificateLink"
+                href="http://www.linkedin.com/learning/introduction-to-aws-for-non-engineers-3-core-services-2?trk=flagship-lil_details_certification"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <li>Core Services</li>
+              </a>
+              <a
+                className="certificateLink"
+                href="http://www.linkedin.com/learning/introduction-to-aws-for-non-engineers-4-billing-and-pricing-2?trk=flagship-lil_details_certification"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <li>Billing and Pricing</li>
+              </a>
+            </ol>
+          </li>
+          <li>
+            <a
+              className="certificateLink"
+              href="https://www.lynda.com/home/CertificateOfCompletion/PrintCertificate.aspx?lpk57=51418CBF2D3C4D95B436EDFDEA409541"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>Javascript Essential Training </strong>
+            </a>
+            <em> - LinkedIn, </em>December 2020
+          </li>
+          <li>
+            <a
+              className="certificateLink"
+              href="https://www.codecademy.com/profiles/hchurch11/certificates/9eb0741e5ebef1f9f58a53bfac67d3a7"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>Learn HTML</strong>
+            </a>
+            <em> - codecademy, </em>December 2020
+          </li>
+          <li>
+            <a
+              className="certificateLink"
+              href="https://www.codecademy.com/profiles/hchurch11/certificates/705dcb15de0da4dd9d9fc4f3274b430e"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>Learn Javascript</strong>
+            </a>
+            <em> - codecademy, </em>December 2020
+          </li>
+          <li>
+            <a
+              className="certificateLink"
               href="https://www.codecademy.com/profiles/hchurch11/certificates/240305d50b925c17868f1ac7a21a3261"
               target="_blank"
               rel="noreferrer"
@@ -278,9 +423,15 @@ export default function Education() {
   return (
     <div className="Education container-fluid">
       <h1 className="page-title">Education</h1>
-      <Certificates />
-      <Degrees />
-      <Technologies />
+      <Row>
+        <Col>
+          <Certificates />
+        </Col>
+        <Col>
+          <Degrees />
+          <Technologies />
+        </Col>
+      </Row>
     </div>
   );
 }
