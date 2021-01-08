@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Rock+Salt&display=swap');
+/* ALL Pages */
+
+.container-fluid {
+  padding: 150px 20px;
+}
+
 h1 {
   font-family: 'Rock Salt', cursive;
 }
@@ -6,6 +12,116 @@ h1 {
 h2, h3, p {
   font-family: 'Lato', sans-serif;
 }
+
+.page-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* Home Page */
+
+/* PROJECTS Page */
+
+.Projects {
+  background-color: #a64942;
+  color: #ff7844;
+}
+
+.Projects .project-tile {
+  padding: 40px;
+  text-align: center;
+  border: 2px solid #BDBDBD;
+  margin: 50px;
+  border-radius: 10px;
+  background-color: #91403a;
+}
+
+.Projects .project-image {
+  margin: 40px 0;
+}
+
+.Projects a.project-link {
+  background-color: #23425f;
+  padding: 20px 0;
+}
+
+/* Contact Page */
+
+/* About Me Page */
+
+.AboutMe {
+  background-color: #ffab5c;
+  color: #a64942;
+  display: flex;
+  justify-content: center;
+}
+
+.AboutMe .section {
+  padding: 20px 100px;
+  max-width: 1000px;
+}
+
+.AboutMe .quote {
+  font-style: italic;
+  font-size: large;
+}
+
+/* Music Page */
+
+.Music {
+  background-color: #ffab5c;
+  color: #a64942;
+  display: flex;
+  justify-content: center;
+}
+
+.Music .section {
+  max-width: 1000px;
+  padding: 20px 100px;
+}
+
+/* Education Page */
+
+/* Blog Page */
+
+.Blog {
+  background-color: #a64942;
+  color: #ff7844;
+}
+
+.BlogTile .section {
+  max-width: 1000px;
+}
+
+/* BlogTile Page */
+
+.BlogTile {
+  text-align: left;
+  margin: 50px;
+  width: 700px;
+  border-radius: 10px;
+}
+
+.BlogTile .card {
+  background-color: #91403a;
+}
+
+.BlogTile img {
+  width: 64px;
+  height: auto;
+  padding-top: 10px;
+}
+
+.BlogTile p {
+  color: #fff;
+}
+
+.BlogTile a {
+  text-decoration: none;
+  color: #ff7844;
+}
+
+/* Media screen  */
 
 @media screen and (max-width: 767px) {
   .contact-section {
