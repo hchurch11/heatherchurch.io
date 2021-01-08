@@ -1,5 +1,4 @@
 import React from "react";
-import "./Projects.css";
 import NumberGuess from "../../images/number_guesser.png";
 import SurveyForm from "../../images/survey-form.png";
 import ProductLanding from "../../images//product_landing.png";
@@ -14,8 +13,8 @@ import { Row } from "react-bootstrap";
 
 export default function Projects() {
   return (
-    <div className="Projects" id="Projects">
-      <section className="project-section" id="Projects">
+    <div className="Projects container-fluid">
+      <section className="section">
         <h1 className="page-title"> Projects </h1>
         <Row>
           <div className="col project-tile">
@@ -209,17 +208,17 @@ export default function Projects() {
               href="https://app.netlify.com/sites/heathers-weather-app-2"
               target="_blank"
               rel="noreferrer"
-              className="project-link btn  btn-block btn-outline-light"
+              className="project-link btn btn-block btn-outline-light"
             >
               Netlify
             </a>
           </div>
         </div>
 
-        <div className="see-more-projects d-block">
+        <div className="see-more-projects ">
           <a
             href="https://github.com/hchurch11/heatherchurch.io"
-            className="project-link btn btn-outline-light "
+            className="project-link btn btn-block btn-outline-light"
             target="_blank"
             rel="noreferrer"
             id="more-projects-link"
