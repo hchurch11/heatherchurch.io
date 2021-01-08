@@ -1,8 +1,13 @@
 .Music {
     background-color: #ffab5c;
     color: #a64942;
+    padding: 150px 20px;
     display: flex;
     justify-content: center;
+}
+
+.Music .section {
+    max-width: 1000px;
 }
 
 .page-title {

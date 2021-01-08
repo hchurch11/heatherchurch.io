@@ -19,8 +19,8 @@ import Firebase from "../../images/Technologies/firebase.png";
 export default function Education() {
   function Certificates(props) {
     return (
-      <>
-        <h2>Licenses and Certificates</h2>
+      <div className="certs">
+        <h2 className="sub-title">Licenses and Certificates</h2>
         <ul>
           <li>
             <a
@@ -152,14 +152,14 @@ export default function Education() {
             <em> K-12 Music </em>— exp. 06/2022
           </li>
         </ul>
-      </>
+      </div>
     );
   }
 
   function Degrees() {
     return (
-      <>
-        <h2>Degrees</h2>
+      <div className="degrees">
+        <h2 className="sub-title">Degrees</h2>
         <ul>
           <li>
             <strong>Master of Music in Percussion Performance</strong>
@@ -170,14 +170,14 @@ export default function Education() {
             <em> - University of North Dakota,</em> Grand Forks, ND — 2012
           </li>
         </ul>
-      </>
+      </div>
     );
   }
 
   function Technologies() {
     return (
-      <>
-        <h2>Technologies and Languages </h2>
+      <div className="technologies">
+        <h2 className="sub-title">Technologies and Languages </h2>
         <Row>
           <Col sm>
             <Image
@@ -272,15 +272,13 @@ export default function Education() {
             />
           </Col>
         </Row>
-      </>
+      </div>
     );
   }
   return (
     <div className="Education container-fluid">
       <h1 className="page-title">Education</h1>
-
       <Certificates />
-
       <Degrees />
       <Technologies />
     </div>

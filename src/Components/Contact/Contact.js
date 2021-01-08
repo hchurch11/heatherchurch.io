@@ -5,6 +5,7 @@ export default function Contact() {
   return (
     <div className="Contact">
       <section id="Contact" className="contact-section vh-100">
+        <h1 className="page-title"> Contact </h1>
         <div className="contact-section-header">
           <h2 className="text-center">Open for opportunities!</h2>
           <p className="text-center">Let's get to know each other! </p>

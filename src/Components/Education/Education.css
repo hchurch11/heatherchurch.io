@@ -1,6 +1,6 @@
 .Education {
     background-color: #ff7844;
-    padding: 10px;
+    padding: 150px 20px;
     color: #23425f;
     display: flex;
     flex-direction: column;
@@ -35,7 +35,7 @@ a.certificateLink:hover {
     margin: 0 auto;
 }
 
-.center {
+.Education .sub-title {
     display: block;
     text-align: center;
     margin: 0 auto;
@@ -46,13 +46,16 @@ a.certificateLink:hover {
     animation: rotating 10s linear infinite;
 }
 
+.technologies {
+    max-width: 1000px;
+}
+
 .techIcon {
     vertical-align: middle;
     border-style: none;
     position: relative;
     width: 100px;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 20px;
 }
 
 @keyframes rotating {

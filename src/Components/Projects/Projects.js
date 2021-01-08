@@ -10,12 +10,14 @@ import OnlineResume from "../../images/resume.png";
 import TechDocument from "../../images/technical_document.png";
 import WeatherAppOrig from "../../images/weather_app-orig.png";
 /* import { ReactTinyLink } from "react-tiny-link"; */
+import { Row } from "react-bootstrap";
 
 export default function Projects() {
   return (
     <div className="Projects" id="Projects">
       <section className="project-section" id="Projects">
-        <div className="row ">
+        <h1 className="page-title"> Projects </h1>
+        <Row>
           <div className="col project-tile">
             <h2 className="project-name">Survey Form</h2>
             <img
@@ -114,7 +116,7 @@ export default function Projects() {
               Netlify
             </a>
           </div>
-        </div>
+        </Row>
         <div className="row ">
           <div className="col project-tile">
             <h2 className="project-name">Technical Document Page</h2>

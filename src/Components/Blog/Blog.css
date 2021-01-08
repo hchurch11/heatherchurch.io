@@ -1,0 +1,34 @@
+.Blog {
+    background-color: #a64942;
+    color: #ff7844;
+    padding: 150px 20px;
+}
+
+.BlogTile {
+    padding: 40px;
+    text-align: center;
+    border: 2px solid #BDBDBD;
+    margin: 50px;
+    border-radius: 10px;
+    background-color: #91403a;
+    width: 600px;
+}
+
+/* Imported from article */
+
+a {
+    text-decoration: none;
+    color: #ff7844;
+}
+
+.blog-image {
+    margin: 40px 0;
+    max-width: 100px;
+    height: auto;
+}
+
+.TDContainer {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 4%;
+}
