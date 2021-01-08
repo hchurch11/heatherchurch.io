@@ -1,35 +1,56 @@
 import React from "react";
-import { Image } from "react-bootstrap";
-import { Row, Col } from "react-bootstrap";
 
 export default function BlogTile(props) {
   const { title, link, thumbnail, content, pubDate } = props.blogData;
 
   function blogPost() {
-    return (
-      <Col>
-        <div className="ImageContainer">
-          <Image
+    /*  return (
+      <div className="ImageContainer card-group">
+        <div className="card">
+          <img
             src={`${thumbnail}`}
-            className="blog-image img-thumbnail"
+            className="card-img-top"
             alt={truncateText(cleanTitle(title), 0, 60)}
-          ></Image>
+          />
+
+          <div className="card-body">
+            <a target="_blank" rel="noopener noreferrer" href={`${link}`}>
+              <h3 className="card-title">
+                {truncateText(cleanTitle(title), 0, 60)}
+              </h3>
+            </a>
+            <br />
+            <p className="card-text">
+              {truncateText(toText(content), 0, 300) + "..."}
+            </p>
+            <br />
+            <p className=" card-footer text-muted">{convertDate(pubDate)}</p>
+          </div>
         </div>
-        <div className="TDContainer">
-          <a target="_blank" rel="noopener noreferrer" href={`${link}`}>
-            <h3>{truncateText(cleanTitle(title), 0, 60)}</h3>
-          </a>
-          <br />
-          <p>{truncateText(toText(content), 0, 300) + "..."}</p>
-          <br />
-          <h4>{convertDate(pubDate)}</h4>
+      </div>
+    ); */
+    return (
+      <div className="section">
+        <div className="media">
+          <img
+            src={`${thumbnail}`}
+            className="align-self-start mr-3"
+            alt={truncateText(cleanTitle(title), 0, 60)}
+          />
+          <div className="media-body">
+            <a target="_blank" rel="noopener noreferrer" href={`${link}`}>
+              <h3 className="mt-0">{truncateText(cleanTitle(title), 0, 60)}</h3>
+            </a>
+            <p>{truncateText(toText(content), 0, 300) + "..."}</p>
+            <p className="text-muted">{convertDate(pubDate)}</p>
+          </div>
         </div>
-      </Col>
+      </div>
     );
   }
 
   function cleanTitle(checkTitle) {
-    checkTitle = checkTitle.replace("amp;", "");
+    checkTitle = checkTitle.replace("amp;", " ");
     return checkTitle;
   }
 
@@ -52,9 +73,5 @@ export default function BlogTile(props) {
     return `Published: ${dateArray.join("/")}`;
   }
 
-  return (
-    <div className="BlogTile">
-      <Row>{blogPost()}</Row>
-    </div>
-  );
+  return <div className="BlogTile ">{blogPost()}</div>;
 }
