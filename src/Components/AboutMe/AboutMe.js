@@ -1,5 +1,4 @@
 import React from "react";
-import "./AboutMe.css";
 
 export default function AboutMe() {
   return (
@@ -94,8 +93,8 @@ export default function AboutMe() {
         </p>
         <h3>Hard-skills Summary:</h3>
         <p>
-          Web: Html, css, javascript, React, JSON, API, Node | MS Office |
-          Google Drive | Social Media: marketing and paid social media
+          Web: Html, css, javascript, React, JSON, API, Node, Python, Git | MS
+          Office | Google Drive | Social Media: marketing and paid social media
           advertising | Fundraising | Sales and persuasion | Marketing |
           Statistic/Data Analysis | Business Planning/New Business development |
           Budgeting | Project Management | Finance | Logistics | Negotiating |
