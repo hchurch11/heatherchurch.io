@@ -1,20 +1,19 @@
 import React from "react";
-import "./Education.css";
 import { Image, Row, Col } from "react-bootstrap";
-import Editor from "../../images/Technologies/vscode.png";
-import API from "../../images/Technologies/api.png";
-import Bootstrap from "../../images/Technologies/bootstrap.png";
-import CSS from "../../images/Technologies/css.png";
-import GitHub from "../../images/Technologies/github.png";
-import Hosting from "../../images/Technologies/hosting.png";
-import HTML from "../../images/Technologies/html.png";
-import Javascript from "../../images/Technologies/javascript.png";
-import Jquery from "../../images/Technologies/jqueryAjax.png";
-import mongoDB from "../../images/Technologies/mongoDB.png";
-import Nodejs from "../../images/Technologies/nodejs.png";
-import NPM from "../../images/Technologies/npmlogo.png";
-import Reactimg from "../../images/Technologies/react.png";
-import Firebase from "../../images/Technologies/firebase.png";
+import Editor from "../images/Technologies/vscode.png";
+import API from "../images/Technologies/api.png";
+import Bootstrap from "../images/Technologies/bootstrap.png";
+import CSS from "../images/Technologies/css.png";
+import GitHub from "../images/Technologies/github.png";
+import Hosting from "../images/Technologies/hosting.png";
+import HTML from "../images/Technologies/html.png";
+import Javascript from "../images/Technologies/javascript.png";
+import Jquery from "../images/Technologies/jqueryAjax.png";
+import mongoDB from "../images/Technologies/mongoDB.png";
+import Nodejs from "../images/Technologies/nodejs.png";
+import NPM from "../images/Technologies/npmlogo.png";
+import Reactimg from "../images/Technologies/react.png";
+import Firebase from "../images/Technologies/firebase.png";
 
 export default function Education() {
   function Certificates(props) {

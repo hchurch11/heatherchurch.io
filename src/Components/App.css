@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Rock+Salt&display=swap');
+/* ALL Pages */
+
+.container-fluid {
+  padding: 150px 20px;
+}
+
+h1 {
+  font-family: 'Rock Salt', cursive;
+}
+
+h2, h3, p {
+  font-family: 'Lato', sans-serif;
+}
+
+.page-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* Navigation */
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #23425f;
+  opacity: .90;
+  padding: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ffab5e;
+  margin: 0 10px;
+}
+
+/* Home Page */
+
+.welcome-section {
+  background: linear-gradient( rgb(255, 171, 94, .5), rgb(255, 171, 94, .5)), url("/Users/heather/Coding-Projects/react-portfolio/src/images/heather_coding.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #a64942;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* PROJECTS Page */
+
+.Projects {
+  background-color: #a64942;
+  color: #ff7844;
+}
+
+.Projects .project-tile {
+  padding: 40px;
+  text-align: center;
+  border: 2px solid #BDBDBD;
+  margin: 50px;
+  border-radius: 10px;
+  background-color: #91403a;
+}
+
+.Projects .project-image {
+  margin: 40px 0;
+}
+
+.Projects a.project-link {
+  background-color: #23425f;
+  padding: 20px 0;
+}
+
+/* Contact Page */
+
+.contact-section {
+  background-color: #ff7844;
+  padding: 10px;
+  color: #23425f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-links a {
+  text-decoration: none;
+  color: #23425f;
+}
+
+.Contact .page-title {
+  padding: 150px 20px;
+}
+
+/* About Me Page */
+
+.AboutMe {
+  background-color: #ffab5c;
+  color: #a64942;
+  display: flex;
+  justify-content: center;
+}
+
+.AboutMe .section {
+  padding: 20px 100px;
+  max-width: 1000px;
+}
+
+.AboutMe .quote {
+  font-style: italic;
+  font-size: large;
+}
+
+/* Music Page */
+
+.Music {
+  background-color: #ffab5c;
+  color: #a64942;
+  display: flex;
+  justify-content: center;
+}
+
+.Music .section {
+  max-width: 1000px;
+  padding: 20px 100px;
+}
+
+/* Education Page */
+
+.Education {
+  background-color: #ff7844;
+  padding: 150px 20px;
+  color: #23425f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-links a {
+  text-decoration: none;
+  color: #23425f;
+}
+
+.Education {
+  text-align: left;
+  list-style-type: disc;
+  background-color: #ff7844;
+}
+
+a.certificateLink {
+  text-decoration: none;
+  color: #23425f;
+}
+
+a.certificateLink:hover {
+  color: #a64942;
+}
+
+/* Technology grid */
+
+#technology {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.Education .sub-title {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px 20px;
+}
+
+.rotating {
+  animation: rotating 10s linear infinite;
+}
+
+.technologies {
+  max-width: 1000px;
+}
+
+.techIcon {
+  vertical-align: middle;
+  border-style: none;
+  position: relative;
+  width: 100px;
+  padding: 20px;
+}
+
+@keyframes rotating {
+  to {
+    transform: rotate(0deg);
+  }
+  from {
+    transform: rotate(360deg);
+  }
+}
+
+/* Blog Page */
+
+.Blog {
+  background-color: #a64942;
+  color: #ff7844;
+}
+
+.BlogTile .section {
+  max-width: 1000px;
+}
+
+/* BlogTile Page */
+
+.BlogTile {
+  text-align: left;
+  margin: 50px;
+  width: 700px;
+  border-radius: 10px;
+}
+
+.BlogTile .card {
+  background-color: #91403a;
+}
+
+.BlogTile img {
+  width: 64px;
+  height: auto;
+  padding-top: 10px;
+}
+
+.BlogTile p {
+  color: #fff;
+}
+
+.BlogTile a {
+  text-decoration: none;
+  color: #ff7844;
+}
+
+/* footer */
+
+.footer {
+  background-color: #23425f;
+  color: #ffab5e;
+  padding: 20px;
+}
+
+/* Media screen  */
+
+@media screen and (max-width: 767px) {
+  .contact-section {
+    padding: 5px;
+    display: block;
+  }
+  .contact-section h2 {
+    padding-top: 50px;
+  }
+  .project-tile a {
+    padding: 5px 0;
+  }
+  .project-section {
+    padding: 0;
+  }
+}

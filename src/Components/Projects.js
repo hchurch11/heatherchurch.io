@@ -1,19 +1,19 @@
 import React from "react";
-import NumberGuess from "../../images/number_guesser.png";
-import SurveyForm from "../../images/survey-form.png";
-import ProductLanding from "../../images//product_landing.png";
-import ReactWeatherApp from "../../images/react_app.png";
-/* import ReactRecipe from "../../images/react_recipe-app.png"; */
-import ReactToDo from "../../images/React_todo.png";
-import OnlineResume from "../../images/resume.png";
-import TechDocument from "../../images/technical_document.png";
-import WeatherAppOrig from "../../images/weather_app-orig.png";
+import NumberGuess from "../images/number_guesser.png";
+import SurveyForm from "../images/survey-form.png";
+import ProductLanding from "../images//product_landing.png";
+import ReactWeatherApp from "../images/react_app.png";
+/* import ReactRecipe from "../images/react_recipe-app.png"; */
+import ReactToDo from "../images/React_todo.png";
+import OnlineResume from "../images/resume.png";
+import TechDocument from "../images/technical_document.png";
+import WeatherAppOrig from "../images/weather_app-orig.png";
 /* import { ReactTinyLink } from "react-tiny-link"; */
 import { Row } from "react-bootstrap";
 
 export default function Projects() {
   return (
-    <div className="Projects container-fluid">
+    <div className="Projects container-fluid" id="Projects">
       <section className="section">
         <h1 className="page-title"> Projects </h1>
         <Row>

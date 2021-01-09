@@ -1,12 +1,12 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Home from "../Home/Home";
-import Blog from "../Blog/Blog";
-import Education from "../Education/Education";
-import Music from "../Music/Music";
-import AboutMe from "../AboutMe/AboutMe";
-import Projects from "../Projects/Projects";
-import Contact from "../Contact/Contact";
+import Home from "./Home";
+import Blog from "./Blog";
+import Education from "./Education";
+import Music from "./Music";
+import AboutMe from "./AboutMe";
+import Projects from "./Projects";
+import Contact from "./Contact";
 
 export default function Pages() {
   return (
